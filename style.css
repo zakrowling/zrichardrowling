@@ -14,7 +14,7 @@ body {
   background: #000 url("https://f4.bcbits.com/img/a1116603548_10.jpg");
   background-repeat: no-repeat;
   background-size: 50%;
-  background-position: bottom right;
+  background-position: top right;
 }
 
 .content {
@@ -28,6 +28,7 @@ nav a {
   font: 600 1.2rem "Poppins", "Gotham", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
+  letter-spacing: 1px;
   color: #fff;
   transition: all 0.3s ease;
 }
@@ -45,7 +46,7 @@ nav a:hover, nav a:active, nav a.active {
 h1 {
   text-transform: uppercase;
   letter-spacing: 5px;
-  font: 600 2rem "Poppins", "Gotham", sans-serif;
+  font: 600 1.88rem "Poppins", "Gotham", sans-serif;
   color: #fff;
 }
 
