@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Alpine.js Test</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<div class="content" x-data="{tab: 1}">
+  <h1>Page title</h1>
+  <nav>
+    <a href="!#about" @click.prevent="tab = 1" :class="{'active': tab === 1}">About</a>
+    <a href="!#music" @click.prevent="tab = 2" :class="{'active': tab === 2}">Music</a>
+    <a href="!#gallery" @click.prevent="tab = 3" :class="{'active': tab === 3}">Gallery</a>
+    <a href="!#contact" @click.prevent="tab = 4" :class="{'active': tab === 4}">Contact</a>
+  </nav>
+  <div x-show="tab === 1">
+    <div class="section-content">
+      <p>ZRR is a multi-instrumentalist, producer, and designer based in Queensland, Australia.</p>
+      <p>His work has been featured on ABC TV, ABC Radio, Rinse FM, and Triple J, amongst others. He has released music through labels and distributors including Etcetc Music (via Universal Music) and Ender Records.</p>
+      <p>He has released two albums and several EPs. He is working on a third album.</p>
+    </div>
+  </div>
+  <div x-show="tab === 2">
+    <div class="section-content">
+      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=498874841/size=small/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://zrichardrowling.bandcamp.com/track/blood">Blood by Z. Richard Rowling</a></iframe>
+      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2590667722/size=small/bgcol=333333/linkcol=e99708/track=2776344841/transparent=true/" seamless><a href="https://zrichardrowling.bandcamp.com/album/felt-delay">Felt / Delay by Z. Richard Rowling</a></iframe>
+      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2590667722/size=small/bgcol=333333/linkcol=e99708/track=1542731267/transparent=true/" seamless><a href="https://zrichardrowling.bandcamp.com/album/felt-delay">Felt / Delay by Z. Richard Rowling</a></iframe>
+      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=2384528913/size=small/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://zrichardrowling.bandcamp.com/track/groundswells">Groundswells by Z. Richard Rowling</a></iframe>
+      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=661461901/size=small/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://zrichardrowling.bandcamp.com/track/macchiato">Macchiato by Z. Richard Rowling</a></iframe>
+      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=3741744566/size=small/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://zrichardrowling.bandcamp.com/track/c-minor-waltz">C Minor Waltz by Z. Richard Rowling</a></iframe>
+      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=477091626/size=small/bgcol=333333/linkcol=e99708/track=3079716885/transparent=true/" seamless><a href="https://zrichardrowling.bandcamp.com/album/music-for-seaports">Music for Seaports by Z. Richard Rowling</a></iframe>
+      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=477091626/size=small/bgcol=333333/linkcol=e99708/track=4132251808/transparent=true/" seamless><a href="https://zrichardrowling.bandcamp.com/album/music-for-seaports">Music for Seaports by Z. Richard Rowling</a></iframe>
+      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=477091626/size=small/bgcol=333333/linkcol=e99708/track=3039738948/transparent=true/" seamless><a href="https://zrichardrowling.bandcamp.com/album/music-for-seaports">Music for Seaports by Z. Richard Rowling</a></iframe>
+      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=477091626/size=small/bgcol=333333/linkcol=e99708/track=1974498606/transparent=true/" seamless><a href="https://zrichardrowling.bandcamp.com/album/music-for-seaports">Music for Seaports by Z. Richard Rowling</a></iframe>
+      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=477091626/size=small/bgcol=333333/linkcol=e99708/track=3090231588/transparent=true/" seamless><a href="https://zrichardrowling.bandcamp.com/album/music-for-seaports">Music for Seaports by Z. Richard Rowling</a></iframe>
+      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=477091626/size=small/bgcol=333333/linkcol=e99708/track=2677302892/transparent=true/" seamless><a href="https://zrichardrowling.bandcamp.com/album/music-for-seaports">Music for Seaports by Z. Richard Rowling</a></iframe>
+      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=477091626/size=small/bgcol=333333/linkcol=e99708/track=3405896899/transparent=true/" seamless><a href="https://zrichardrowling.bandcamp.com/album/music-for-seaports">Music for Seaports by Z. Richard Rowling</a></iframe>
+      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=477091626/size=small/bgcol=333333/linkcol=e99708/track=2939724709/transparent=true/" seamless><a href="https://zrichardrowling.bandcamp.com/album/music-for-seaports">Music for Seaports by Z. Richard Rowling</a></iframe>
+    </div>
+  </div>
+  <div x-show="tab === 3">
+    <div class="section-content">
+      Gallery
+    </div>
+  </div>
+  <div x-show="tab === 4">
+    <div class="section-content">
+      <a href="mailto:zrichardrowling@gmail.com">zrichardrowling@gmail.com</a>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 18px/1.8rem "Lora", Georgia, serif;
+  font-weight: 200;
+  color: #bcbcbc;
+  background: #000 url("https://f4.bcbits.com/img/a1116603548_10.jpg");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: bottom right;
+}
+
+.content {
+  float: left;
+  margin: 5%;
+  width: 25%;
+}
+
+nav a {
+  padding: 0.5rem 1.2rem 0.5rem 0;
+  font: 600 1.2rem "Poppins", "Gotham", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+nav a:hover, nav a:active, nav a.active {
+  color: #d8a731;
+}
+
+.section-content {
+  padding: 1rem 0;
+}
+.section-content a {
+  color: #fff;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font: 600 2rem "Poppins", "Gotham", sans-serif;
+  color: #fff;
+}
+
+b {
+  color: #fff;
+}
